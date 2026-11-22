@@ -1,0 +1,42 @@
+name: hedone
+description: "Hedone — Material Design 3 dual-source comic reader for JMComic & E-Hentai."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  crypto: ^3.0.6
+  encrypt: ^5.0.3
+  pointycastle: ^3.9.1
+  html: ^0.15.5
+  image: ^4.3.0
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+  fonts:
+    - family: SourceHanSansCN
+      fonts:
+        - asset: assets/fonts/SourceHanSansCN-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SourceHanSansCN-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SourceHanSansCN-Bold.otf
+          weight: 700
